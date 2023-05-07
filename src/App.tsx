@@ -1,8 +1,20 @@
-import React from "react";
-import "./App.scss";
+import { Routes, Route } from "react-router-dom";
+import "./styles/main.scss";
+import HomePage from "./pages/HomePage";
 
 function App() {
-  return <div className="App">Dev Portfolio Starter</div>;
+  return (
+    <section className="App">
+      {/* <Navbar /> */}
+      <main className="main">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          {/* <Route path="/:nasaId" element={<ShowPage />} /> */}
+        </Routes>
+      </main>
+      {/* <Footer /> */}
+    </section>
+  );
 }
 
 export default App;
