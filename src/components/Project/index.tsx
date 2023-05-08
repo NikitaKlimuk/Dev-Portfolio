@@ -1,20 +1,15 @@
+import { NavLink } from "react-router-dom";
+import { IProject } from "../../interface/Project";
 import "./styles.scss";
 
-interface IProject {
-  title: string;
-  skills?: string;
-  img: any;
-  link: string;
-}
-
-const Project: React.FC<IProject> = ({ title, skills, img, link }) => {
+const Project: React.FC<IProject> = ({ title, img, link }) => {
   return (
-    <li className="project">
-      <a href={link}>
+    <NavLink to={`/project/${link}`}>
+      <li className="project">
         <img src={img} alt={title} className="project__img" />
         <h3 className="project__title">{title}</h3>
-      </a>
-    </li>
+      </li>
+    </NavLink>
   );
 };
 

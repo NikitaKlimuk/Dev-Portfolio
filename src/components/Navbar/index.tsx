@@ -1,15 +1,19 @@
 import "./styles.scss";
 import sun from "../../assets/icons/sun.svg";
 import moon from "../../assets/icons/moon.svg";
+import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
+  const activeLink = "nav-list__link nav-list__link--active";
+  const normalLink = "nav-list__link ";
+
   return (
     <nav className="nav">
       <div className="container">
         <div className="nav-row">
-          <a href="/" className="logo">
+          <NavLink className="logo" to="/">
             <strong>Frontend developer</strong> portfolio
-          </a>
+          </NavLink>
 
           <button className="dark-mode-btn">
             <img src={sun} alt="Light mode" className="dark-mode-btn__icon" />
@@ -18,19 +22,34 @@ const Navbar: React.FC = () => {
 
           <ul className="nav-list">
             <li className="nav-list__item">
-              <a href="/" className="nav-list__link nav-list__link--active">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }
+                to="/"
+              >
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-list__item">
-              <a href="/projects" className="nav-list__link">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }
+                to="/projects"
+              >
                 Projects
-              </a>
+              </NavLink>
             </li>
             <li className="nav-list__item">
-              <a href="/contacts" className="nav-list__link">
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeLink : normalLink
+                }
+                to="/contacts"
+              >
                 Contacts
-              </a>
+              </NavLink>
             </li>
           </ul>
         </div>

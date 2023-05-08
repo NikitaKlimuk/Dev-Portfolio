@@ -14,7 +14,7 @@ const ProjectsPage = () => {
                 key={index}
                 title={item.title}
                 img={item.img}
-                link={item.gitHubLink}
+                link={index}
               />
             );
           })}
