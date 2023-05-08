@@ -25,7 +25,7 @@ const HomePage = () => {
         <div className="container">
           <ul className="content-list">
             <li className="content-list__item">
-              <h2 className="title-role">Frontend</h2>
+              <h2 className="title-2">Frontend</h2>
               <p>
                 TypeScript, JavaScript, React, React Router, Redux, Redux
                 Toolkit, RTK Query, Storybook, Jest, React Testing Library, REST
