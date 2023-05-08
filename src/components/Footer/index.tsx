@@ -3,7 +3,7 @@ import insta from "../../assets/icons/instagram.svg";
 import gitHub from "../../assets/icons/gitHub.svg";
 import linkedIn from "../../assets/icons/linkedIn.svg";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <footer className="footer">
       <div className="container">

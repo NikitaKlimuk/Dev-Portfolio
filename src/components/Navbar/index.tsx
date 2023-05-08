@@ -2,7 +2,7 @@ import "./styles.scss";
 import sun from "../../assets/icons/sun.svg";
 import moon from "../../assets/icons/moon.svg";
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <nav className="nav">
       <div className="container">
