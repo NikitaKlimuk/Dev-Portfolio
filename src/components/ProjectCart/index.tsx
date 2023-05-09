@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import { IProject } from "../../interface/Project";
 import "./styles.scss";
 
-const Project: React.FC<IProject> = ({ title, img, link }) => {
+const ProjectCart: React.FC<IProject> = ({ title, img, link }) => {
   return (
     <NavLink to={`/project/${link}`}>
       <li className="project">
@@ -13,4 +13,4 @@ const Project: React.FC<IProject> = ({ title, img, link }) => {
   );
 };
 
-export default Project;
+export default ProjectCart;

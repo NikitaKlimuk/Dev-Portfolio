@@ -1,6 +1,6 @@
 import "./styles.scss";
-import Project from "../../components/Project";
 import { projectsData } from "../../config/projectsList";
+import ProjectCart from "../../components/ProjectCart";
 
 const ProjectsPage = () => {
   return (
@@ -10,7 +10,7 @@ const ProjectsPage = () => {
         <ul className="projects">
           {projectsData.map((item, index) => {
             return (
-              <Project
+              <ProjectCart
                 key={index}
                 title={item.title}
                 img={item.img}
