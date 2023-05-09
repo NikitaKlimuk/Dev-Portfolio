@@ -21,7 +21,7 @@ const projectsData = [
     gitHubLink: "https://github.com/NikitaKlimuk/Vse-Svoe",
   },
   {
-    title: "Mervel API Project",
+    title: "Marvel API Project",
     skills:
       "React, Javascript, SASS, react-router, formik, Marvel API, react-hooks",
     img: marvel,

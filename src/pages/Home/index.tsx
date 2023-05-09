@@ -15,7 +15,12 @@ const HomePage = () => {
           <div className="header__text">
             <p>with passion for learning and creating.</p>
           </div>
-          <a href="#!" className="btn">
+          <a
+            href="https://docs.google.com/document/d/1VkziH1ccbPQiza2stMZcg0vjd7bSq6qMNGKP8Gn2YH8/edit?usp=sharing"
+            className="btn"
+            target="_blank"
+            rel="noreferrer"
+          >
             Show My CV
           </a>
         </div>
