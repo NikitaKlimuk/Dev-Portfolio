@@ -2,7 +2,7 @@
 
 This project is a web application based on React and Typescript. The application is designed to demonstrate website development work.
 
-Preview: dev-portfolio-vert-gamma.vercel.app
+Preview: [dev-portfolio-vert-gamma.vercel.app](https://dev-portfolio-vert-gamma.vercel.app/)
 
 ## Technologies Used
 
@@ -24,7 +24,7 @@ Start the application with **npm start**
 ### Main page 
 ![main page](https://github.com/NikitaKlimuk/Dev-Portfolio/assets/44801567/e012d14c-eacd-4b52-ae80-946e700bf8fa)
 
-### Projects page (whith selected card)
+### Projects page
 ![projects page](https://github.com/NikitaKlimuk/Dev-Portfolio/assets/44801567/3eee20f9-19cc-4891-9555-48df1ec88225)
 
 ###  Project details page
