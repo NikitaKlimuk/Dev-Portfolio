@@ -4,8 +4,24 @@ import marvel from "../assets/projects/marvelProject.jpg";
 import videography from "../assets/projects/videographyPortfolio.jpg";
 import parallax from "../assets/projects/parallaxForrest.jpg";
 import prokatov from "../assets/projects/prokatov.jpg";
+import rasp from "../assets/projects/rasp.png";
+import vome from "../assets/projects/vome.png";
 
 const projectsData = [
+  {
+    title: "VOME - Where Every Property Tells a Story",
+    skills:
+      "React, Typescript, SASS, react-router, i18n, react-hook-form, slick-carousel, Framer Motion, Axios",
+    img: vome,
+    gitHubLink: "https://vome.vercel.app/",
+  },
+  {
+    title: "AI Startup - Tree.js animation",
+    skills:
+      "React, Typescript, Framer Motion, three.js, react-hook-form, AirTable, SASS, react-query",
+    img: rasp,
+    gitHubLink: "https://rasp-ai-test.vercel.app/",
+  },
   {
     title: "NASA Media Library",
     skills:

@@ -1,3 +1,5 @@
+import ContactsPage from "../Contacts";
+import ProjectsPage from "../Projects";
 import "./styles.scss";
 
 const HomePage = () => {
@@ -16,7 +18,7 @@ const HomePage = () => {
             <p>with passion for learning and creating.</p>
           </div>
           <a
-            href="https://docs.google.com/document/d/1VkziH1ccbPQiza2stMZcg0vjd7bSq6qMNGKP8Gn2YH8/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1ws7kLRzxuT8_Zed3n9idH9V84rbpCBit/view?usp=sharing"
             className="btn"
             target="_blank"
             rel="noreferrer"
@@ -41,6 +43,9 @@ const HomePage = () => {
           </ul>
         </div>
       </main>
+
+      <ProjectsPage />
+      <ContactsPage />
     </>
   );
 };

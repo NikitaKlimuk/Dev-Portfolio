@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-list__item">
+            {/* <li className="nav-list__item">
               <NavLink
                 className={({ isActive }) =>
                   isActive ? activeLink : normalLink
@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
               >
                 Contacts
               </NavLink>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
